@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99D87F211D91330B00C50D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F201D91330B00C50D33 /* AppDelegate.swift */; };
+		99D87F231D91330B00C50D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F221D91330B00C50D33 /* ViewController.swift */; };
+		99D87F261D91330B00C50D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D87F241D91330B00C50D33 /* Main.storyboard */; };
+		99D87F281D91330B00C50D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D87F271D91330B00C50D33 /* Assets.xcassets */; };
+		99D87F2B1D91330B00C50D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D87F291D91330B00C50D33 /* LaunchScreen.storyboard */; };
+		99D87F361D91330C00C50D33 /* RouletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F351D91330C00C50D33 /* RouletteTests.swift */; };
+		99D87F411D91330C00C50D33 /* RouletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F401D91330C00C50D33 /* RouletteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99D87F321D91330C00C50D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D87F151D91330B00C50D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D87F1C1D91330B00C50D33;
+			remoteInfo = Roulette;
+		};
+		99D87F3D1D91330C00C50D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D87F151D91330B00C50D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99D87F1C1D91330B00C50D33;
+			remoteInfo = Roulette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99D87F1D1D91330B00C50D33 /* Roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D87F201D91330B00C50D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99D87F221D91330B00C50D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99D87F251D91330B00C50D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D87F271D91330B00C50D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D87F2A1D91330B00C50D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99D87F2C1D91330B00C50D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D87F311D91330C00C50D33 /* RouletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D87F351D91330C00C50D33 /* RouletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteTests.swift; sourceTree = "<group>"; };
+		99D87F371D91330C00C50D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D87F3C1D91330C00C50D33 /* RouletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D87F401D91330C00C50D33 /* RouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteUITests.swift; sourceTree = "<group>"; };
+		99D87F421D91330C00C50D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D87F1A1D91330B00C50D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D87F2E1D91330C00C50D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D87F391D91330C00C50D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99D87F141D91330B00C50D33 = {
+			isa = PBXGroup;
+			children = (
+				99D87F1F1D91330B00C50D33 /* Roulette */,
+				99D87F341D91330C00C50D33 /* RouletteTests */,
+				99D87F3F1D91330C00C50D33 /* RouletteUITests */,
+				99D87F1E1D91330B00C50D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99D87F1E1D91330B00C50D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D87F1D1D91330B00C50D33 /* Roulette.app */,
+				99D87F311D91330C00C50D33 /* RouletteTests.xctest */,
+				99D87F3C1D91330C00C50D33 /* RouletteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D87F1F1D91330B00C50D33 /* Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				99D87F201D91330B00C50D33 /* AppDelegate.swift */,
+				99D87F221D91330B00C50D33 /* ViewController.swift */,
+				99D87F241D91330B00C50D33 /* Main.storyboard */,
+				99D87F271D91330B00C50D33 /* Assets.xcassets */,
+				99D87F291D91330B00C50D33 /* LaunchScreen.storyboard */,
+				99D87F2C1D91330B00C50D33 /* Info.plist */,
+			);
+			path = Roulette;
+			sourceTree = "<group>";
+		};
+		99D87F341D91330C00C50D33 /* RouletteTests */ = {
+			isa = PBXGroup;
+			children = (
+				99D87F351D91330C00C50D33 /* RouletteTests.swift */,
+				99D87F371D91330C00C50D33 /* Info.plist */,
+			);
+			path = RouletteTests;
+			sourceTree = "<group>";
+		};
+		99D87F3F1D91330C00C50D33 /* RouletteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99D87F401D91330C00C50D33 /* RouletteUITests.swift */,
+				99D87F421D91330C00C50D33 /* Info.plist */,
+			);
+			path = RouletteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D87F1C1D91330B00C50D33 /* Roulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D87F451D91330C00C50D33 /* Build configuration list for PBXNativeTarget "Roulette" */;
+			buildPhases = (
+				99D87F191D91330B00C50D33 /* Sources */,
+				99D87F1A1D91330B00C50D33 /* Frameworks */,
+				99D87F1B1D91330B00C50D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roulette;
+			productName = Roulette;
+			productReference = 99D87F1D1D91330B00C50D33 /* Roulette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99D87F301D91330C00C50D33 /* RouletteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D87F481D91330C00C50D33 /* Build configuration list for PBXNativeTarget "RouletteTests" */;
+			buildPhases = (
+				99D87F2D1D91330C00C50D33 /* Sources */,
+				99D87F2E1D91330C00C50D33 /* Frameworks */,
+				99D87F2F1D91330C00C50D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D87F331D91330C00C50D33 /* PBXTargetDependency */,
+			);
+			name = RouletteTests;
+			productName = RouletteTests;
+			productReference = 99D87F311D91330C00C50D33 /* RouletteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99D87F3B1D91330C00C50D33 /* RouletteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D87F4B1D91330C00C50D33 /* Build configuration list for PBXNativeTarget "RouletteUITests" */;
+			buildPhases = (
+				99D87F381D91330C00C50D33 /* Sources */,
+				99D87F391D91330C00C50D33 /* Frameworks */,
+				99D87F3A1D91330C00C50D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D87F3E1D91330C00C50D33 /* PBXTargetDependency */,
+			);
+			name = RouletteUITests;
+			productName = RouletteUITests;
+			productReference = 99D87F3C1D91330C00C50D33 /* RouletteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D87F151D91330B00C50D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Toshiaki Nakamura";
+				TargetAttributes = {
+					99D87F1C1D91330B00C50D33 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					99D87F301D91330C00C50D33 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 99D87F1C1D91330B00C50D33;
+					};
+					99D87F3B1D91330C00C50D33 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 99D87F1C1D91330B00C50D33;
+					};
+				};
+			};
+			buildConfigurationList = 99D87F181D91330B00C50D33 /* Build configuration list for PBXProject "Roulette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D87F141D91330B00C50D33;
+			productRefGroup = 99D87F1E1D91330B00C50D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D87F1C1D91330B00C50D33 /* Roulette */,
+				99D87F301D91330C00C50D33 /* RouletteTests */,
+				99D87F3B1D91330C00C50D33 /* RouletteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D87F1B1D91330B00C50D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D87F2B1D91330B00C50D33 /* LaunchScreen.storyboard in Resources */,
+				99D87F281D91330B00C50D33 /* Assets.xcassets in Resources */,
+				99D87F261D91330B00C50D33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D87F2F1D91330C00C50D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D87F3A1D91330C00C50D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D87F191D91330B00C50D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D87F231D91330B00C50D33 /* ViewController.swift in Sources */,
+				99D87F211D91330B00C50D33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D87F2D1D91330C00C50D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D87F361D91330C00C50D33 /* RouletteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D87F381D91330C00C50D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D87F411D91330C00C50D33 /* RouletteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D87F331D91330C00C50D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D87F1C1D91330B00C50D33 /* Roulette */;
+			targetProxy = 99D87F321D91330C00C50D33 /* PBXContainerItemProxy */;
+		};
+		99D87F3E1D91330C00C50D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99D87F1C1D91330B00C50D33 /* Roulette */;
+			targetProxy = 99D87F3D1D91330C00C50D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99D87F241D91330B00C50D33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D87F251D91330B00C50D33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99D87F291D91330B00C50D33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D87F2A1D91330B00C50D33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D87F431D91330C00C50D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99D87F441D91330C00C50D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D87F461D91330C00C50D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roulette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.toshi586014.Roulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99D87F471D91330C00C50D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roulette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.toshi586014.Roulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99D87F491D91330C00C50D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RouletteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.toshi586014.RouletteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roulette.app/Roulette";
+			};
+			name = Debug;
+		};
+		99D87F4A1D91330C00C50D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RouletteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.toshi586014.RouletteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roulette.app/Roulette";
+			};
+			name = Release;
+		};
+		99D87F4C1D91330C00C50D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RouletteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.toshi586014.RouletteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Roulette;
+			};
+			name = Debug;
+		};
+		99D87F4D1D91330C00C50D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RouletteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.toshi586014.RouletteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Roulette;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D87F181D91330B00C50D33 /* Build configuration list for PBXProject "Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D87F431D91330C00C50D33 /* Debug */,
+				99D87F441D91330C00C50D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D87F451D91330C00C50D33 /* Build configuration list for PBXNativeTarget "Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D87F461D91330C00C50D33 /* Debug */,
+				99D87F471D91330C00C50D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99D87F481D91330C00C50D33 /* Build configuration list for PBXNativeTarget "RouletteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D87F491D91330C00C50D33 /* Debug */,
+				99D87F4A1D91330C00C50D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99D87F4B1D91330C00C50D33 /* Build configuration list for PBXNativeTarget "RouletteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D87F4C1D91330C00C50D33 /* Debug */,
+				99D87F4D1D91330C00C50D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D87F151D91330B00C50D33 /* Project object */;
+}
