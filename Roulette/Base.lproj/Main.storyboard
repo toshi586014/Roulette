@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Roulette" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,111 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="announcement" translatesAutoresizingMaskIntoConstraints="NO" id="D6Q-lq-D0Q">
+                                <rect key="frame" x="175" y="20" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="AHf-Y4-WwG"/>
+                                    <constraint firstAttribute="width" constant="250" id="wgz-Ga-wAW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fON-7I-Gfk">
+                                <rect key="frame" x="278" y="550" width="45" height="30"/>
+                                <state key="normal" title="発表！"/>
+                                <connections>
+                                    <action selector="pushAnnounceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZm-eY-mkp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fON-7I-Gfk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="96S-7Y-1tK"/>
+                            <constraint firstItem="D6Q-lq-D0Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mrw-fD-z4L"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fON-7I-Gfk" secondAttribute="bottom" constant="20" id="OXS-qS-dbV"/>
+                            <constraint firstItem="D6Q-lq-D0Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="x3z-EZ-R6N"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="announceImageView" destination="D6Q-lq-D0Q" id="cPy-L1-6FG"/>
+                        <segue destination="GvZ-od-uyj" kind="presentation" identifier="toRouletteView" id="0fB-ga-oEo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Roulette View Controller-->
+        <scene sceneID="ct9-er-oOD">
+            <objects>
+                <viewController storyboardIdentifier="RouletteViewController" id="GvZ-od-uyj" customClass="RouletteViewController" customModule="Roulette" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SBk-0k-VKJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="08G-yb-vQl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YP1-i4-Hce">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="congratulation" translatesAutoresizingMaskIntoConstraints="NO" id="rJV-PE-7Le">
+                                <rect key="frame" x="175" y="20" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="0XX-AB-GVe"/>
+                                    <constraint firstAttribute="height" constant="250" id="6pJ-ve-Ppe"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rtm-PN-Egc">
+                                <rect key="frame" x="175" y="330" width="250" height="199"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9F-ts-mov">
+                                <rect key="frame" x="285" y="550" width="30" height="30"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="pushBackButton:" destination="GvZ-od-uyj" eventType="touchUpInside" id="e84-tl-XDS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当選者はこちらの方々です！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6B-DL-gB9">
+                                <rect key="frame" x="190" y="289" width="221" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rtm-PN-Egc" firstAttribute="top" secondItem="x6B-DL-gB9" secondAttribute="bottom" constant="20" id="0DZ-3a-5Zj"/>
+                            <constraint firstItem="rtm-PN-Egc" firstAttribute="trailing" secondItem="YP1-i4-Hce" secondAttribute="trailingMargin" id="781-va-BQf"/>
+                            <constraint firstItem="x6B-DL-gB9" firstAttribute="top" secondItem="rJV-PE-7Le" secondAttribute="bottom" constant="19" id="OLS-0K-v38"/>
+                            <constraint firstItem="rtm-PN-Egc" firstAttribute="leading" secondItem="rJV-PE-7Le" secondAttribute="leading" id="QAd-2B-XVn"/>
+                            <constraint firstItem="rtm-PN-Egc" firstAttribute="centerX" secondItem="YP1-i4-Hce" secondAttribute="centerX" id="ULv-tF-xui"/>
+                            <constraint firstItem="Y9F-ts-mov" firstAttribute="top" secondItem="rtm-PN-Egc" secondAttribute="bottom" constant="21" id="YCN-n8-R3m"/>
+                            <constraint firstItem="rtm-PN-Egc" firstAttribute="trailing" secondItem="rJV-PE-7Le" secondAttribute="trailing" id="aON-zL-KMW"/>
+                            <constraint firstItem="rJV-PE-7Le" firstAttribute="centerX" secondItem="YP1-i4-Hce" secondAttribute="centerX" id="bD1-0L-UTc"/>
+                            <constraint firstItem="Y9F-ts-mov" firstAttribute="centerX" secondItem="YP1-i4-Hce" secondAttribute="centerX" id="jQd-Jb-Deu"/>
+                            <constraint firstItem="rtm-PN-Egc" firstAttribute="leading" secondItem="YP1-i4-Hce" secondAttribute="leadingMargin" id="lgU-AS-qHK"/>
+                            <constraint firstItem="rJV-PE-7Le" firstAttribute="top" secondItem="SBk-0k-VKJ" secondAttribute="bottom" id="nP9-hZ-GDb"/>
+                            <constraint firstItem="x6B-DL-gB9" firstAttribute="centerX" secondItem="YP1-i4-Hce" secondAttribute="centerX" id="nnZ-gk-nPo"/>
+                            <constraint firstItem="08G-yb-vQl" firstAttribute="top" secondItem="Y9F-ts-mov" secondAttribute="bottom" constant="20" id="uIb-a2-veE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="781-va-BQf"/>
+                                <exclude reference="lgU-AS-qHK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="luckyTextView" destination="rtm-PN-Egc" id="qnU-7C-Ohv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3a-7B-QCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="311"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="announcement" width="160" height="160"/>
+        <image name="congratulation" width="160" height="160"/>
+    </resources>
 </document>

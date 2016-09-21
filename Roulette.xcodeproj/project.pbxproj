@@ -14,6 +14,8 @@
 		99D87F2B1D91330B00C50D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D87F291D91330B00C50D33 /* LaunchScreen.storyboard */; };
 		99D87F361D91330C00C50D33 /* RouletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F351D91330C00C50D33 /* RouletteTests.swift */; };
 		99D87F411D91330C00C50D33 /* RouletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F401D91330C00C50D33 /* RouletteUITests.swift */; };
+		99D87F4F1D91396900C50D33 /* RouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F4E1D91396900C50D33 /* RouletteViewController.swift */; };
+		99D87F511D9139CB00C50D33 /* AnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D87F501D9139CB00C50D33 /* AnimatedTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		99D87F3C1D91330C00C50D33 /* RouletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D87F401D91330C00C50D33 /* RouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteUITests.swift; sourceTree = "<group>"; };
 		99D87F421D91330C00C50D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D87F4E1D91396900C50D33 /* RouletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouletteViewController.swift; sourceTree = "<group>"; };
+		99D87F501D9139CB00C50D33 /* AnimatedTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				99D87F201D91330B00C50D33 /* AppDelegate.swift */,
 				99D87F221D91330B00C50D33 /* ViewController.swift */,
+				99D87F4E1D91396900C50D33 /* RouletteViewController.swift */,
+				99D87F501D9139CB00C50D33 /* AnimatedTransition.swift */,
 				99D87F241D91330B00C50D33 /* Main.storyboard */,
 				99D87F271D91330B00C50D33 /* Assets.xcassets */,
 				99D87F291D91330B00C50D33 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D87F231D91330B00C50D33 /* ViewController.swift in Sources */,
+				99D87F511D9139CB00C50D33 /* AnimatedTransition.swift in Sources */,
 				99D87F211D91330B00C50D33 /* AppDelegate.swift in Sources */,
+				99D87F4F1D91396900C50D33 /* RouletteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
